@@ -274,11 +274,11 @@ not contain `TensorrtExecutionProvider` at startup, that is almost always the ca
 
 ## Repository layout
 
-```
 .
 ├── src/
 │   ├── train_patchcore.py
-│   └── infer.py
+│   ├── infer.py
+│   └── infer_single.py            # single-image demo + heat-map figure
 ├── benchmark/
 │   ├── memory_test.py
 │   ├── benchmark_fp32.py
@@ -287,9 +287,9 @@ not contain `TensorrtExecutionProvider` at startup, that is almost always the ca
 │   ├── benchmark_trt_feature.py
 │   ├── benchmark_trt_patchcore.py
 │   └── eval_auroc.py
-├── models/
-│   └── patchcore_feature_extractor.onnx
+├── models/                        # exported ONNX lands here (not committed)
 ├── results/
 │   └── environment.txt
+├── docs/
+│   └── detection_example.png
 └── requirements.txt
-```
