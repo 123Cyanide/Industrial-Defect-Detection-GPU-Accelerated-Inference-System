@@ -6,3 +6,5 @@ models/*.onnx
 *.ckpt
 __pycache__/
 *.pyc
+anomaly_overlay.png
+anomaly_overlay.png
