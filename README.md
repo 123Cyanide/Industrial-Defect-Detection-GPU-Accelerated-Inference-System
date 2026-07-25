@@ -273,6 +273,7 @@ sensitive to CUDA / TensorRT / ONNX Runtime version alignment; if the provider l
 not contain `TensorrtExecutionProvider` at startup, that is almost always the cause.
 
 ## Repository layout
+```
 .
 ├── src/
 │   ├── train_patchcore.py
@@ -292,3 +293,4 @@ not contain `TensorrtExecutionProvider` at startup, that is almost always the ca
 ├── docs/
 │   └── detection_example.png
 └── requirements.txt
+```
