@@ -11,6 +11,10 @@ arithmetic**, and once the transfers were gone the bottleneck was the nearest-ne
 search rather than the CNN backbone. Three silent correctness bugs surfaced along the
 way; they are documented below, because finding them was most of the work.
 
+![Detection example](docs/detection_example.png)
+
+*MVTec AD `bottle`, contamination defect. Left: input. Centre: anomaly map. Right: overlay.*
+
 ---
 
 ## Results
@@ -289,5 +293,3 @@ not contain `TensorrtExecutionProvider` at startup, that is almost always the ca
 │   └── environment.txt
 └── requirements.txt
 ```
-# Industrial-Defect-Detection-GPU-Accelerated-Inference-System
-# Industrial-Defect-Detection-GPU-Accelerated-Inference-System
