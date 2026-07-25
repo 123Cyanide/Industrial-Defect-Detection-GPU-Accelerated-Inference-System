@@ -290,3 +290,4 @@ not contain `TensorrtExecutionProvider` at startup, that is almost always the ca
 └── requirements.txt
 ```
 # Industrial-Defect-Detection-GPU-Accelerated-Inference-System
+# Industrial-Defect-Detection-GPU-Accelerated-Inference-System
