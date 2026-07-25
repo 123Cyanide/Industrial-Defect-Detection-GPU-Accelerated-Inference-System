@@ -1,0 +1,8 @@
+trt_cache/
+results/*
+!results/environment.txt
+datasets/
+models/*.onnx
+*.ckpt
+__pycache__/
+*.pyc

@@ -1,0 +1,6 @@
+torch: 2.5.1+cu121
+cuda: 12.1
+tensorrt: 10.9.0.34
+onnxruntime: 1.23.2
+providers: ['TensorrtExecutionProvider', 'CUDAExecutionProvider', 'CPUExecutionProvider']
+NVIDIA GeForce RTX 4070 Laptop GPU
