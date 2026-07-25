@@ -289,3 +289,4 @@ not contain `TensorrtExecutionProvider` at startup, that is almost always the ca
 │   └── environment.txt
 └── requirements.txt
 ```
+# Industrial-Defect-Detection-GPU-Accelerated-Inference-System
